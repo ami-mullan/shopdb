@@ -1,0 +1,52 @@
+<div class="heading">
+    #addSHOP
+</div>
+<div class="elems centered">
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">District</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+    <option selected>Choose...</option>
+    <option value="1">Malappuram</option>
+    <option value="2">Palakkad</option>
+  </select>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Town</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+    <option selected>Choose...</option>
+    <option value="1">Perinthalmanna</option>
+    <option value="2">Mannarkkad</option>
+    <option value="3">Melattur</option>
+  </select>
+    </div>
+
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">Shop</span>
+        </div>
+        <textarea class="form-control"></textarea>
+    </div>
+    <br>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text">+91</span>
+        </div>
+        <input type="text" class="form-control">
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fa fa-phone"></i></span>
+        </div>
+        <input type="text" class="form-control">
+    </div>
+
+    <div>
+        <button class="btn btn-primary" (click)="fetchLocation()"><i class="fa fa-map-marker"> </i> Fetch Location</button>
+        <button class="btn btn-primary">Submit</button>
+    </div>
+    <div id="map"></div>
+</div>

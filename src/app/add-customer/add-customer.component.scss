@@ -1,0 +1,52 @@
+textarea {
+    resize: none;
+}
+
+.elems {
+    padding: 10px;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    color: white;
+    -webkit-box-shadow: -11px 11px 12px -1px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: -11px 11px 12px -1px rgba(0, 0, 0, 0.36);
+    box-shadow: -11px 11px 12px -1px rgba(0, 0, 0, 0.36);
+}
+
+.centered {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 361px) {
+    .heading {
+        font-size: 1.6em;
+        left: 50%;
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+}
+
+@media only screen and (min-width: 361px) {
+    .heading {
+        font-size: 2.5em;
+        left: 50%;
+        top: 15%;
+        -ms-transform: translate(-50%, -15%);
+        transform: translate(-50%, -15%);
+    }
+}
+
+.heading {
+    color: white;
+    margin: 0;
+    position: absolute;
+}
